@@ -1,0 +1,133 @@
+{
+    "ReservationId": "r-08f580f58c00c7e74",
+    "OwnerId": "386892108516",
+    "Groups": [],
+    "Instances": [
+        {
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [],
+            "ClientToken": "e5dec9b0-bc6e-4182-96b8-b767f955e9c0",
+            "EbsOptimized": false,
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "NetworkInterfaces": [
+                {
+                    "Attachment": {
+                        "AttachTime": "2026-02-18T19:50:39+00:00",
+                        "AttachmentId": "eni-attach-0b0b5e98adfd2439d",
+                        "DeleteOnTermination": true,
+                        "DeviceIndex": 0,
+                        "Status": "attaching",
+                        "NetworkCardIndex": 0
+                    },
+                    "Description": "",
+                    "Groups": [
+                        {
+                            "GroupId": "sg-055ed6b9930193380",
+                            "GroupName": "default"
+                        }
+                    ],
+                    "Ipv6Addresses": [],
+                    "MacAddress": "06:b0:36:7e:fa:fd",
+                    "NetworkInterfaceId": "eni-017463f95d7257411",
+                    "OwnerId": "386892108516",
+                    "PrivateDnsName": "ip-172-31-19-142.eu-north-1.compute.internal",
+                    "PrivateIpAddress": "172.31.19.142",
+                    "PrivateIpAddresses": [
+                        {
+                            "Primary": true,
+                            "PrivateDnsName": "ip-172-31-19-142.eu-north-1.compute.internal",
+                            "PrivateIpAddress": "172.31.19.142"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Status": "in-use",
+                    "SubnetId": "subnet-04a87057641e9e5f8",
+                    "VpcId": "vpc-07abf822b7d12e11a",
+                    "InterfaceType": "interface",
+                    "Operator": {
+                        "Managed": false
+                    }
+                }
+            ],
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SecurityGroups": [
+                {
+                    "GroupId": "sg-055ed6b9930193380",
+                    "GroupName": "default"
+                }
+            ],
+            "SourceDestCheck": true,
+            "StateReason": {
+                "Code": "pending",
+                "Message": "pending"
+            },
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "MyFirstServer"
+                }
+            ],
+            "VirtualizationType": "hvm",
+            "CpuOptions": {
+                "CoreCount": 1,
+                "ThreadsPerCore": 2
+            },
+            "CapacityReservationSpecification": {
+                "CapacityReservationPreference": "open"
+            },
+            "MetadataOptions": {
+                "State": "pending",
+                "HttpTokens": "required",
+                "HttpPutResponseHopLimit": 2,
+                "HttpEndpoint": "enabled",
+                "HttpProtocolIpv6": "disabled",
+                "InstanceMetadataTags": "disabled"
+            },
+            "EnclaveOptions": {
+                "Enabled": false
+            },
+            "BootMode": "uefi-preferred",
+            "PrivateDnsNameOptions": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "MaintenanceOptions": {
+                "AutoRecovery": "default",
+                "RebootMigration": "default"
+            },
+            "CurrentInstanceBootMode": "uefi",
+            "Operator": {
+                "Managed": false
+            },
+            "InstanceId": "i-07f9e5f1bab7db09b",
+            "ImageId": "ami-019dad73e93fe94c2",
+            "State": {
+                "Code": 0,
+                "Name": "pending"
+            },
+            "PrivateDnsName": "ip-172-31-19-142.eu-north-1.compute.internal",
+            "PublicDnsName": "",
+            "StateTransitionReason": "",
+            "KeyName": "my-aws-key",
+            "AmiLaunchIndex": 0,
+            "ProductCodes": [],
+            "InstanceType": "t3.micro",
+            "LaunchTime": "2026-02-18T19:50:39+00:00",
+            "Placement": {
+                "AvailabilityZoneId": "eun1-az1",
+                "GroupName": "",
+                "Tenancy": "default",
+                "AvailabilityZone": "eu-north-1a"
+            },
+            "Monitoring": {
+                "State": "disabled"
+            },
+            "SubnetId": "subnet-04a87057641e9e5f8",
+            "VpcId": "vpc-07abf822b7d12e11a",
+            "PrivateIpAddress": "172.31.19.142"
+        }
+    ]
+}
